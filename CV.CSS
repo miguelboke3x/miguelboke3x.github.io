@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+body {
+  background-color: cadetblue;
+}
+.tipo-guay{
+    font-family: 'Raleway', sans-serif;
+}
+#cabecera {
+    height: 150px;
+    background-color:rebeccapurple;
+    margin-bottom: 1em;
+}
+#div-fotografia {
+    float: left;
+}
+#div-fotografia img {
+    height: 150px;
+    transition: all 0.1s linear;
+}
+#div-fotografia img:hover {
+    border-radius: 0px 100px 0px 0px;
+    transition: all 0.1s linear;
+}
+
+#div-titulo {
+    padding-top: 1em;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+img {
+    height: 10em;
+}
+#div-cv {
+    height: 6em;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom:20px;
+  }
+
+  #nombre{
+    color: #ffffff;
+    background-color: #343b99;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  .personales{
+    color: #ffff;
+    background-color: #12e8ec;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    }
+  .formacion{
+    color: #ffff;
+     background-color: #12ecb1;
+     text-align: center;
+     padding-bottom: 15px;
+     padding-top: 15px;
+     margin-bottom: 9px;
+     font-size: 1.3em;
+   }
+   .Experiencia{
+     color: #ffff;
+     background-color: #14b71b;
+     text-align: center;
+     padding-bottom: 15px;
+     padding-top: 15px;
+     margin-bottom: 15px;
+     font-size: 1.3em;
+     } 
+    
